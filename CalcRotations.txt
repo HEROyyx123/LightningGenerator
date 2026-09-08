@@ -1,0 +1,8 @@
+using Microsoft.Xna.Framework;
+
+private static float[] CalcRotations(Vector2[] positions)
+{
+	float[] array = new float[positions.Length];
+	CalcRotations(positions, array);
+	return array;
+}
